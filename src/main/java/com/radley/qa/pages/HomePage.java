@@ -24,6 +24,10 @@ public class HomePage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
+	public void test(){
+		System.out.println("sjdhas");
+	}
+	
 	public NewPurses clickOnNewPurses(){
 		
 		act.moveToElement(newIN).build().perform();
